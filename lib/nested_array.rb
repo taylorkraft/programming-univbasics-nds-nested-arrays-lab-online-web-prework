@@ -30,10 +30,7 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  assembled_matrix = [
-    ["Bruce Green", "Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."],
-    ["Gerhard Schtitt", "Hal Incandenza", "Lyle", "Mario Incandenza", "Michael Pemulis"]
-    ]
+  assembled_matrix = 
   assembled_matrix[1][1]
 end
 
