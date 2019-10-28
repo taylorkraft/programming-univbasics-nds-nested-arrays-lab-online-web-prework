@@ -31,7 +31,10 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  
+  nested_array = [
+    ["Bruce Green", "Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."],
+    ["Gerhard Schtitt", "Hal Incandenza", "Lyle", "Mario Incandenza", "Michael Pemulis"]
+    ]
   nested_array[2][2]
 end
 
