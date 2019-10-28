@@ -17,25 +17,25 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  nested_array = [
+  assembled_matrix = [
     ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
     ]
 end
 
 def array_literal_matrix
-  nested_array = [
+  assembled_matrix = [
     ["Bruce Green", "Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."],
     ["Gerhard Schtitt", "Hal Incandenza", "Lyle", "Mario Incandenza", "Michael Pemulis"]
     ]
 end
 
 def matrix_lookup(matrix, row, column)
-  nested_array = [
+  assembled_matrix = [
     ["Bruce Green", "Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."],
     ["Gerhard Schtitt", "Hal Incandenza", "Lyle", "Mario Incandenza", "Michael Pemulis"]
     ]
-  nested_array[2][2]
+  assembled_matrix[2][2]
 end
 
 def matrix_update(matrix, row, column, new_value)
