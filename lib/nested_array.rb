@@ -31,8 +31,8 @@ end
 
 def matrix_lookup(matrix, row, column)
   assembled_matrix = [
-    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
-    ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
+    
+    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]
     ]
   assembled_matrix[1][1]
 end
