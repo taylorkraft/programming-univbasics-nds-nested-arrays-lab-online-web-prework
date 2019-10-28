@@ -31,6 +31,7 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
+  
   nested_array[2][2]
 end
 
