@@ -42,5 +42,6 @@ def matrix_update(matrix, row, column, new_value)
     ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
     ]
-    assembled_matrix[0][2] = ""
+    assembled_matrix[0][2] = "Tiny Ewell"
+    return assembled_matrix
 end
