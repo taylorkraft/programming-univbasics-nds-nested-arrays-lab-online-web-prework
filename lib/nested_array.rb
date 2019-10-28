@@ -34,7 +34,7 @@ def matrix_lookup(matrix, row, column)
     ["Bruce Green", "Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."],
     ["Gerhard Schtitt", "Hal Incandenza", "Lyle", "Mario Incandenza", "Michael Pemulis"]
     ]
-  assembled_matrix[2][2]
+  assembled_matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
